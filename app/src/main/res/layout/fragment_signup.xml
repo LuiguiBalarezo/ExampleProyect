@@ -10,24 +10,47 @@
         android:orientation="vertical">
 
         <EditText
-            android:hint="Email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Email" />
 
         <EditText
-            android:hint="Clave"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Clave" />
 
         <EditText
-            android:hint="Confirmar Clave"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:hint="Confirmar Clave" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sign Up"/>
+            android:text="Sign Up" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lnl_message"
+        android:padding="15dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Tanks for signing up!" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Check your email for confirmation." />
 
     </LinearLayout>
 

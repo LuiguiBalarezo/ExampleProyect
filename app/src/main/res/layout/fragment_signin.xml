@@ -1,14 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/content_credential"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CredentialActivity"
-    tools:showIn="@layout/activity_credential">
+    tools:showIn="@layout/activity_credential"
+    tools:context="com.balascript.www.exampleproyect.fragment.SignInFragment">
 
     <ImageView
-        android:id="@+id/logo"
+        android:id="@+id/img_logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
@@ -18,7 +16,7 @@
         android:id="@+id/base_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/logo"
+        android:layout_below="@id/img_logo"
         android:orientation="vertical">
 
         <EditText
@@ -34,7 +32,7 @@
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/edt_enter"
+            android:id="@+id/btn_enter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Entrar" />
@@ -49,15 +47,18 @@
         android:layout_below="@id/base_login"
         android:orientation="horizontal">
 
-        <TextView
+        <Button
+            android:id="@+id/btn_forgot_password"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Forgot your password?"
-            android:gravity="left"
+            android:gravity="left|center_vertical"
+            android:textSize="12sp"
             android:layout_weight="1" />
 
-        <TextView
-            android:gravity="right"
+        <Button
+            android:id="@+id/btn_signup"
+            android:gravity="right|center_vertical"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Sign Up"
@@ -72,21 +73,24 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/btn_facebook"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="f"
+            android:text="facebook"
             android:layout_weight="1" />
 
         <Button
+            android:id="@+id/btn_twitter"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="f"
+            android:text="twitter"
             android:layout_weight="1" />
 
         <Button
+            android:id="@+id/btn_google"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="f"
+            android:text="Google"
             android:layout_weight="1" />
 
     </LinearLayout>
