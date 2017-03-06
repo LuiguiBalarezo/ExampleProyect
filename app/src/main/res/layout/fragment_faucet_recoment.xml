@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.balascript.www.exampleproyect.fragment.FaucetRecomentFragment">
+
+    <LinearLayout
+        android:background="@android:color/darker_gray"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faucet Web"
+            android:layout_weight="1"
+            android:paddingLeft="20dp"
+            android:gravity="left"
+            android:id="@+id/editText" />
+
+        <TextView
+            android:id="@+id/edt_forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Use"
+            android:paddingRight="20dp"
+            android:gravity="right"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
